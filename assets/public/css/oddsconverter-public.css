@@ -1,0 +1,74 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.modal-content {
+	background:transparent;
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	-o-box-shadow:none;
+	-moz-box-shadow:none;
+	border:none;
+}
+.modal-header {
+	background:transparent;
+	color:#FFF;
+	padding:0;
+}
+.modal-header-upper-row {
+	min-height: 45px;
+	background: linear-gradient(135deg, transparent 400px, #000000 0px);
+}
+.modal-header-upper-row i {
+	font-size:1.2em;
+	font-weight: 200;
+	color:#FFF;
+}
+.modal-header-lower-row {
+	background-color: #000;
+	height:50px;
+}
+.modal-header-lower-row img {
+	position: relative;
+	left:50px;
+	bottom:10px;
+}
+.modal-body, .modal-footer {
+	background-color: #FFF;
+}
+.modal-header .close {
+	margin:13px 13px 0 0;
+}
+.close {
+	color:#FFF;
+	font-size:1.6em;
+	text-shadow: none;
+	opacity: 0.8 !important;
+	font-weight: 100;
+}
+.close:hover {
+	opacity:1.0 !important;
+	color:#FFF;
+	background:transparent;
+}
+
+.modal-title {
+	bottom:53px;
+	position: relative;
+	font-size:14px;
+	text-transform: uppercase;
+	color:#FFF;
+	opacity: 1.0;
+}
+.qbo-label {
+	font-size: 12px;
+}
+.qbo-label-control {
+	margin-top:10px;
+}
+#form-convert #qbo_user_odds, #form-convert #odds_type {
+	border-radius: none !important;
+}
+.form-group {
+	margin-bottom: 45px;
+}
